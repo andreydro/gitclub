@@ -122,7 +122,49 @@
   width: inherit;
   height: 700px;
   border: 1px solid #dfe2e5;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
   padding-left: 10px;
   padding-right: 10px;
   color: #6a737d;
+}
+
+.readme-heading {
+  display: inline-block;
+  width: inherit;
+  height: 40px;
+  border: 1px solid #dfe2e5;
+  border-top-right-radius: 3px;
+  border-top-left-radius: 3px;
+  background-color: #eff3f6;
+  margin-top: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.readme-textbox {
+  display: block;
+  width: inherit;
+  height: 80px;
+  border: 1px solid #dfe2e5;
+  border-top: none;
+  border-bottom-right-radius: 3px;
+  border-bottom-left-radius: 3px;
+  margin-bottom: 60px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.new-repo-heading {
+  display: block;
+  width: inherit;
+  height: 135px;
+  border: 1px solid #c8e1ff;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background-color: #f1f8ff;
+  padding-left: 20px;
+  padding-top: 20px;
+  margin-top: 20px;
 }
