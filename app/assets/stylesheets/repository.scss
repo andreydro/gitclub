@@ -2,7 +2,7 @@
   display: inline-block;
   width: 100% ;
   background-color: #fafbfc;
-  height: 90px;
+  height: 100px;
   border-bottom: 1px solid #dfe2e5;
 }
 
@@ -31,6 +31,7 @@
     display: inline-block;
     font-size: 14px;
     padding-right: 40px;
+    padding-left: 10px;
     a {
       color: #6a737d;
     }
@@ -167,4 +168,77 @@
   padding-left: 20px;
   padding-top: 20px;
   margin-top: 20px;
+  button {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 27px;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 3px;
+    background-color: #eff3f6;
+    color: #24292e;
+  }
+}
+
+.create-new-repo {
+  display: block;
+  width: inherit;
+  height: 300px;
+  border-right: 1px solid #dfe2e5;
+  border-left: 1px solid #dfe2e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.create-repo-manual {
+  display: block;
+  width: inherit;
+  background-color: #f6f8fa;
+  padding-left: 10px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  border-radius: 5px;
+  button {
+    margin-right: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 27px;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 3px;
+    background-color: #eff3f6;
+    color: #24292e;
+  }
+}
+
+.push-repo-manual {
+  display: block;
+  width: inherit;
+  height: 150px;
+  border: 1px solid #dfe2e5;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+
+.import-repo-code {
+  button {
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+    height: 27px;
+    border: 1px solid rgba(27,31,35,0.2);
+    border-radius: 3px;
+    background-color: #eff3f6;
+    color: #24292e;
+    margin-top: 10px;
+  }
+}
+
+.protip-box {
+  display: block;
+  border-bottom: 1px solid #dfe2e5;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
 }
