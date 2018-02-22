@@ -21,5 +21,6 @@ Rails.application.routes.draw do
   get 'repository/create'
   get 'repository/edit'
   get 'repository/destroy'
+  get '/issues', to: 'issues#show'
   resources :users
 end
